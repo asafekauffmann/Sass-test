@@ -6,9 +6,11 @@
    flex-direction: $direction;
 }
 
-
-.headerContainer {
+header {
    @include flexCenter(column);
-   width: 100%; 
-   background: pink;
+   background: bisque;
+}
+
+.container {
+   color: aqua;
 }
