@@ -7,7 +7,7 @@
 }
 
 
-.container {
+.headerContainer {
    @include flexCenter(column);
    width: 100%; 
    background: pink;

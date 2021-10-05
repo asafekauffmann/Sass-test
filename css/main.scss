@@ -10,7 +10,7 @@ html, body {
    font-weight:unset;
 }
 
-.seContainer {
+.mainContainer {
    @include flexCenter(column);
    color: $font-color;
    background-color: $bg-color;
