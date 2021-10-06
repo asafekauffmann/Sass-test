@@ -1,0 +1,21 @@
+@mixin justification($direction) { /* Variavel local */ 
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   flex-direction: $direction;
+}
+
+.justContainer {
+   @include justification(row);
+   background: $color-green;
+   span {
+      margin: 50px 50px;
+   }
+   p {
+      color: $color-prgra;
+   }
+   img {
+      border-radius: 15px;
+   }
+}

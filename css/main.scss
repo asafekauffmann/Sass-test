@@ -1,6 +1,11 @@
+// Font Inport
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
-@import './header';
+
+// Variables/Containers SaSS
 @import './variables';
+@import './headerContainer';
+@import './mainContainer';
+@import './justContainer';
 
 * { border-style: border-box; margin: 0; padding: 0;}
 
@@ -8,15 +13,5 @@ html, body {
    font-family: 'Source Sans Pro', sans-serif;
    font-size: 1.2rem;
    font-weight:unset;
-}
-
-.container {
-   @include flexCenter(column); 
-}
-
-.seContainer {
-   @include flexCenter(column);
-
-   color: $font-color;
-   background-color: $pink-color;
+   color: $color-text;
 }

@@ -1,0 +1,28 @@
+.mainContainer {
+   @include divCenter(column);
+   background-color: $color-blue;
+   &:hover {
+      background-color: blueviolet;
+   }
+   p {
+      color: $color-prgra;
+   }
+   button {
+      height: 2rem;
+      width: 6rem;
+      font-weight: bold;
+      border-radius: 15px;
+      text-decoration: none;
+      border: 2px solid white;
+      margin: 10px auto;
+   }
+   button:hover {
+      background-color: $color-salman;
+      border: $color-salman;
+      color: $color-prgra;
+   }
+   button:active {
+      height: 2.2rem;
+      width: 6.2rem;
+   }
+}

@@ -1,24 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap");
-header {
-  height: 100vh;
+.headerContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: bisque;
+  background-color: #f7d9b3;
 }
 
-.container {
-  color: aqua;
+.mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #058585;
+}
+
+.mainContainer:hover {
+  background-color: blueviolet;
+}
+
+.mainContainer p {
+  color: #b6e7f5;
+}
+
+.mainContainer button {
+  height: 2rem;
+  width: 6rem;
+  font-weight: bold;
+  border-radius: 15px;
+  text-decoration: none;
+  border: 2px solid white;
+  margin: 10px auto;
+}
+
+.mainContainer button:hover {
+  background-color: #eb4034;
+  border: #eb4034;
+  color: #b6e7f5;
+}
+
+.mainContainer button:active {
+  height: 2.2rem;
+  width: 6.2rem;
+}
+
+.justContainer {
+  /* Variavel local */
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #10c76c;
+}
+
+.justContainer span {
+  margin: 50px 50px;
+}
+
+.justContainer p {
+  color: #b6e7f5;
+}
+
+.justContainer img {
+  border-radius: 15px;
 }
 
 * {
@@ -31,41 +107,6 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.2rem;
   font-weight: unset;
-}
-
-.container {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.seContainer {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   color: #242424;
-  background-color: #ee9eab;
 }
 /*# sourceMappingURL=main.css.map */
